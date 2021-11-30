@@ -10,6 +10,7 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import com.example.truyencuoi.OnActionClick;
 import com.example.truyencuoi.R;
@@ -85,12 +86,15 @@ public class MainActivity extends AppCompatActivity implements OnActionClick, Na
         }else if(listSingleStoryFragment.isAdded()){
             super.onBackPressed();
             storyViewPagerFragment.setReturnFrom(false);
-        }else if(getSupportFragmentManager().getBackStackEntryCount() > 0){
-            super.onBackPressed();
         } else{
-            FileUtil.saveFavorite(this,stories.getTopicStoryList());
             super.onBackPressed();
         }
+    }
+
+    @Override
+    protected void onStop() {
+        FileUtil.saveFavorite(this,stories.getTopicStoryList());
+        super.onStop();
     }
 
     @Override
