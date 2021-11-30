@@ -1,2 +1,2 @@
 # TruyenCuoi
-android/clone
+android/clone/clone for study reason
