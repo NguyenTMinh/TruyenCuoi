@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TruyenCuoi">
         <activity
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.TruyenCuoi.NoActionBar"
             android:name=".activity.MainActivity"
             android:exported="true">
