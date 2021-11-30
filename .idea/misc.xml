@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable-v24/background_item_single_story.xml" value="0.2846153846153846" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable-v24/circle_green.xml" value="0.2846153846153846" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/back_icon.xml" value="0.2846153846153846" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/background_item_single_story.xml" value="0.2846153846153846" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/background_item_single_story_not_press.xml" value="0.2846153846153846" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/background_item_single_story_press.xml" value="0.2846153846153846" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/background_item_topic.xml" value="0.2846153846153846" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/circle.xml" value="0.2846153846153846" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/custom_background.xml" value="0.2890625" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/favorite_state.xml" value="0.2846153846153846" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/ic_fav_choose.xml" value="0.2578125" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/ic_fav_not_choose.xml" value="0.2833333333333333" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/nav_header_icon.xml" value="0.275" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/nav_header_icon_background.xml" value="0.275" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/state_click_on_item_topic.xml" value="0.33" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/fragment_favorite_story.xml" value="0.27291666666666664" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/fragment_home_screen.xml" value="0.27291666666666664" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/fragment_main_screen.xml" value="0.27291666666666664" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/fragment_single_story.xml" value="0.27291666666666664" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/fragment_splash.xml" value="0.25" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/fragment_story.xml" value="0.27291666666666664" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/fragment_topic_story.xml" value="0.22" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/fragment_viewpager_read_story.xml" value="0.27291666666666664" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/item_single_story.xml" value="0.27291666666666664" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/item_topic_story.xml" value="0.27291666666666664" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/nav_header_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/menu/nav_main_menu.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

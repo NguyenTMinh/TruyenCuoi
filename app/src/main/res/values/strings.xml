@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Truyen Cuoi</string>
+    <string name="label_app">Truyện Cười</string>
+    <string name="title_header_1">Truyện cười 24/7</string>
+    <string name="desc">@string/app_name</string>
+    <string name="nav_category">Chủ đề</string>
+    <string name="nav_favorite">Yêu thích</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_clsoe">Close</string>
+    <string name="number">100</string>
+</resources>
