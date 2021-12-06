@@ -3,12 +3,10 @@ package com.example.truyencuoi.model;
 public class Story {
     private String storyName;
     private String storyContent;
-    private boolean favorite;
 
     public Story(String storyName, String storyContent) {
         this.storyName = storyName;
         this.storyContent = storyContent;
-        this.favorite = false;
     }
 
     public String getStoryName() {
@@ -27,11 +25,4 @@ public class Story {
         this.storyContent = storyContent;
     }
 
-    public boolean isFavorite() {
-        return favorite;
-    }
-
-    public void setFavorite(boolean favorite) {
-        this.favorite = favorite;
-    }
 }

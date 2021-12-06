@@ -10,12 +10,10 @@ import java.util.List;
 public class TopicStory {
     private String topic;
     private Drawable icon;
-    private List<Story> listStory;
 
     public TopicStory(String topic, Drawable icon){
         this.topic = topic;
         this.icon = icon;
-        listStory = new ArrayList<>();
     }
 
     public String getTopic() {
@@ -34,15 +32,4 @@ public class TopicStory {
         this.icon = icon;
     }
 
-    public List<Story> getListStory() {
-        return listStory;
-    }
-
-    public void setListStory(List<Story> listStory) {
-        this.listStory = listStory;
-    }
-
-    public void addStory(Story story){
-        listStory.add(story);
-    }
 }

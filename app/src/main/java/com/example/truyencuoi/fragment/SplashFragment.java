@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.example.truyencuoi.Constant;
 import com.example.truyencuoi.OnActionClick;
 import com.example.truyencuoi.R;
 
@@ -19,13 +20,13 @@ public class SplashFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                actionClick.callBack();
-            }
-        },3000);
         return inflater.inflate(R.layout.fragment_splash,container,false);
+    }
+
+    @Override
+    public void onResume() {
+        new Handler().postDelayed(() -> actionClick.callBack(Constant.KEY_HOME,null,null),3000);
+        super.onResume();
     }
 
     public void setActionClick(OnActionClick actionClick) {

@@ -9,21 +9,19 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.truyencuoi.ITranData;
-import com.example.truyencuoi.OnActionClick;
+import com.example.truyencuoi.Constant;
+import com.example.truyencuoi.ItemListener;
 import com.example.truyencuoi.R;
 import com.example.truyencuoi.model.Story;
 
 import java.util.List;
 
-public class StoryAdapter extends RecyclerView.Adapter<StoryAdapter.StoryViewHolder> implements ITranData {
+public class StoryAdapter extends RecyclerView.Adapter<StoryAdapter.StoryViewHolder>{
     private List<Story> listStory;
     private Context context;
-    private OnActionClick actionClick;
-    private int pos;
+    private ItemListener listener;
 
     public StoryAdapter(List<Story> listStory, Context context) {
         this.listStory = listStory;
@@ -44,13 +42,7 @@ public class StoryAdapter extends RecyclerView.Adapter<StoryAdapter.StoryViewHol
         Story story = listStory.get(position);
         holder.textView.setText(story.getStoryName());
         holder.imageView.setImageResource(R.drawable.icon_smile);
-        holder.linearLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                pos = holder.getAdapterPosition();
-                actionClick.changeListViewpager(listStory);
-            }
-        });
+        holder.pos = holder.getAdapterPosition();
     }
 
     @Override
@@ -58,29 +50,24 @@ public class StoryAdapter extends RecyclerView.Adapter<StoryAdapter.StoryViewHol
         return listStory.size();
     }
 
-    public void setActionClick(OnActionClick actionClick) {
-        this.actionClick = actionClick;
-    }
-
-    @Override
-    public int getPos() {
-        return pos;
+    public void setListener(ItemListener listener) {
+        this.listener = listener;
     }
 
     public class StoryViewHolder extends RecyclerView.ViewHolder{
         ImageView imageView;
-        public TextView textView;
+        TextView textView;
         LinearLayout linearLayout;
+        int pos;
 
         public StoryViewHolder(@NonNull View itemView) {
             super(itemView);
             imageView = itemView.findViewById(R.id.imageview_smile);
             linearLayout = itemView.findViewById(R.id.layout_single_item);
             textView = itemView.findViewById(R.id.textview_title_story);
+            linearLayout.setOnClickListener(v -> {
+                listener.onClick(Constant.KEY_STORY,pos);
+            });
         }
-    }
-
-    public void setListStory(List<Story> listStory) {
-        this.listStory = listStory;
     }
 }

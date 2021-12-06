@@ -4,18 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:src="@drawable/ic_fav_not_choose"
-        android:layout_gravity="end|center_vertical"
-        android:id="@+id/imageview_fav"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_margin="8dp"
-        android:clickable="true"
-        android:contentDescription="@string/desc"
-        android:focusable="true" />
-
     <TextView
+        android:layout_marginTop="8dp"
         android:id="@+id/textview_title"
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
@@ -24,7 +14,7 @@
         android:textStyle="bold"
         android:textSize="20sp"/>
 
-    <androidx.core.widget.NestedScrollView
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <TextView
@@ -34,6 +24,6 @@
             android:layout_height="match_parent"
             android:fontFamily="@font/arial"
             android:textSize="15sp"/>
-    </androidx.core.widget.NestedScrollView>
+    </ScrollView>
 
 </LinearLayout>

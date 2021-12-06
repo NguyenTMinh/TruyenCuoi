@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable-v24/background_item_single_story.xml" value="0.2846153846153846" />
         <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable-v24/circle_green.xml" value="0.2846153846153846" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable-v24/custom_ripple.xml" value="0.2846153846153846" />
         <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/back_icon.xml" value="0.2846153846153846" />
         <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/background_item_single_story.xml" value="0.2846153846153846" />
         <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/background_item_single_story_not_press.xml" value="0.2846153846153846" />
@@ -12,7 +13,9 @@
         <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/background_item_topic.xml" value="0.2846153846153846" />
         <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/circle.xml" value="0.2846153846153846" />
         <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/custom_background.xml" value="0.2890625" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/custom_ripple.xml" value="0.2722222222222222" />
         <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/favorite_state.xml" value="0.2846153846153846" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/ic_baseline_format_list_bulleted_24.xml" value="0.2846153846153846" />
         <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/ic_fav_choose.xml" value="0.2578125" />
         <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/ic_fav_not_choose.xml" value="0.2833333333333333" />
         <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/drawable/nav_header_icon.xml" value="0.275" />
@@ -27,9 +30,17 @@
         <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/fragment_story.xml" value="0.27291666666666664" />
         <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/fragment_topic_story.xml" value="0.22" />
         <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/fragment_viewpager_read_story.xml" value="0.27291666666666664" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/home_fragment.xml" value="0.27291666666666664" />
         <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/item_single_story.xml" value="0.27291666666666664" />
         <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/item_topic_story.xml" value="0.27291666666666664" />
         <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/nav_header_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/nav_item.xml" value="0.27291666666666664" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/navigation_drawer_fragment.xml" value="0.27291666666666664" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/tool_bar_view.xml" value="0.27291666666666664" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/toolbar_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/topic_story.xml" value="0.27291666666666664" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/topic_story_list.xml" value="0.27291666666666664" />
+        <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/layout/view_detail_story.xml" value="0.27291666666666664" />
         <entry key="..\:/User's/Code/AndroidStudioProject/TruyenCuoi/app/src/main/res/menu/nav_main_menu.xml" value="0.5" />
       </map>
     </option>
