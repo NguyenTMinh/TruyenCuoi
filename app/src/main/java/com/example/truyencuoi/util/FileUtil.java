@@ -105,12 +105,11 @@ public class FileUtil {
     }
 
     public static void saveFavorite(Context context,List<TopicStory> list){
-        String s = context.getExternalFilesDir("fav.txt").getAbsolutePath();
         File file = context.getExternalFilesDir("fav.txt");
-        file.delete();
         try {
             file.createNewFile();
             RandomAccessFile raf = new RandomAccessFile(file,"rw");
+            raf.setLength(0);
             for (int i = 0; i < list.size(); i++) {
                 for (int j = 0; j < list.get(i).getListStory().size(); j++) {
                     if(list.get(i).getListStory().get(j).isFavorite()){
